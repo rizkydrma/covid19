@@ -52,6 +52,6 @@ function valueCovid(title,covid){
   <small class="text-muted">${covid.detail}</small></p>`
 }
 function valueGlobalCovid(title,covid){
-  return `<li class="list-group-item"> <p> ${title}: ${covid.value} </p></li>
+  return `<li class="list-group-item"> <p> ${title} ${covid.value} </p></li>
   `
 }
